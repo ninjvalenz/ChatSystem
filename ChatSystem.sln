@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAPI", "ChatAPI\ChatAPI.csproj", "{6F5335FE-50AE-4A71-A2C7-C788873BEBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueService", "QueueService\QueueService.csproj", "{B8846BFE-517C-406E-9A40-0BE46D0CEE52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentService", "AgentService\AgentService.csproj", "{2915D060-51B4-4140-9F8C-7CCBDC83932A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollingService", "PollingService\PollingService.csproj", "{FFAD18F9-E71B-4B45-B81A-9F383EA935A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker", "MessageBroker\MessageBroker.csproj", "{A81250D0-B39E-42D4-AB44-6B5995CC4646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8D4E09C1-6EC4-46F2-B726-D04F97606846}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ChatSystem.Database", "ChatSystem.Database\ChatSystem.Database.sqlproj", "{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5335FE-50AE-4A71-A2C7-C788873BEBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5335FE-50AE-4A71-A2C7-C788873BEBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5335FE-50AE-4A71-A2C7-C788873BEBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5335FE-50AE-4A71-A2C7-C788873BEBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8846BFE-517C-406E-9A40-0BE46D0CEE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8846BFE-517C-406E-9A40-0BE46D0CEE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8846BFE-517C-406E-9A40-0BE46D0CEE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8846BFE-517C-406E-9A40-0BE46D0CEE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2915D060-51B4-4140-9F8C-7CCBDC83932A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2915D060-51B4-4140-9F8C-7CCBDC83932A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2915D060-51B4-4140-9F8C-7CCBDC83932A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2915D060-51B4-4140-9F8C-7CCBDC83932A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAD18F9-E71B-4B45-B81A-9F383EA935A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAD18F9-E71B-4B45-B81A-9F383EA935A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAD18F9-E71B-4B45-B81A-9F383EA935A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAD18F9-E71B-4B45-B81A-9F383EA935A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81250D0-B39E-42D4-AB44-6B5995CC4646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81250D0-B39E-42D4-AB44-6B5995CC4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81250D0-B39E-42D4-AB44-6B5995CC4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81250D0-B39E-42D4-AB44-6B5995CC4646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4E09C1-6EC4-46F2-B726-D04F97606846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4E09C1-6EC4-46F2-B726-D04F97606846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4E09C1-6EC4-46F2-B726-D04F97606846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4E09C1-6EC4-46F2-B726-D04F97606846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02442A1-4F4C-4A25-A266-A41AD52AF4F7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
